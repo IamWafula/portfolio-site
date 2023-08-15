@@ -1,4 +1,4 @@
 #!/bin/bash
 
 source venv/bin/activate
-python -m unittest discover -v tests/
+python3 -m unittest discover -v tests/
