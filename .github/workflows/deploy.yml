@@ -31,4 +31,4 @@ jobs:
       - name: Deploy site
         run: |
           ssh my-vps 'ls'
-          ssh my-vps '~/redeploy-site.sh'
+          ssh my-vps '~/portfolio-site/redeploy-site.sh'
