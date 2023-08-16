@@ -30,5 +30,4 @@ jobs:
 
       - name: Deploy site
         run: |
-          ssh my-vps 'chmod +x ~/portfolio-site/redeploy-site.sh'
-          ssh my-vps '~/portfolio-site/redeploy-site.sh'
+          ssh my-vps '~/redeploy-site.sh'
