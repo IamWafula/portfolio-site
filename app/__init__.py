@@ -46,13 +46,9 @@ def index():
          "year": "2022-2026",
          "img": "./static/img/minerva.png"
         },
-        {"school": "Ivey Business School",
-         "year": "2023-2025",
-         "img": "./static/img/ivey.png"
-         },
-        {"school": "University of California, Irvine",
-         "year": "2021-24",
-          "img": "./static/img/uci_logo.png"
+        {"school": "Alliance High School, kenya",
+         "year": "2017-2021",
+          "img": "./static/img/ahs_logo.png"
         }
     ]
 
