@@ -62,14 +62,14 @@ def index():
         {"company":"MLH Fellowship",
             "title" : "Site Reliability Engineering Fellow",
             "logo":"./static/img/experienceImages/mlh.png",
-            "date": "June 04, 2021 - Present",
+            "date": "June 04, 2023 - Present",
             "description":"Worked as a fellow for the MLH Fellowship. Learned skills in React, Flask, and Python."},
         
-        {"company":"Western University",
+        {"company":"Minerva University",
             "title" : "Programming Peer tutor",
-            "logo":"./static/img/western.jpg",
-            "date":"September 2021 - Present",
-            "description":"Worked as a programming peer tutor at Western University. Learned skills in Java, Python, and C++."},
+            "logo":"./static/img/minerva.png",
+            "date":"September 2022 - April 2023",
+            "description":"Worked as a programming peer tutor at Minerva University. Learned skills in Data Science, Python, and Communication."},
 
     ]
     return render_template('index.html',title="MLH Fellow", titleEdu="Education", education_data=education_data, titleExp="Experience" ,  experience=experience_data, url=os.getenv("URL"))
